@@ -76,7 +76,7 @@ function Formulario({pacientes,setPacientes,paciente,setPaciente}) {
         Añade pacientes y <span className=" text-blue-500">Administralos</span>
       </p>
 
-      <form className="bg-white shadow-lg rounded-md px-4 py-2 mr-6 mt-3 mx-5" onSubmit={handleSubmit}>
+      <form className="bg-white shadow-lg rounded-md px-4 mr-8 py-2" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="mascota" className="block uppercase font-bold mb-1 text-center text-gray-500">
             Nombre Mascota

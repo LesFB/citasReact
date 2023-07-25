@@ -8,7 +8,7 @@ const Paciente = ({paciente,setPaciente,eliminarPaciente}) => {
   return (
     <div>
       
-      <div className='mt-3 mx-5 bg-white shadow-lg px-4 py-2 rounded-md'>
+      <div className='bg-white shadow-lg rounded-md px-4 mr-8 py-2 mb-5'>
         <p className='font-bold mb-3 uppercase text-gray-500'>
           Nombre: <span className='font-normal normal-case'>{paciente.nombre}</span>
         </p>
